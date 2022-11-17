@@ -8,7 +8,7 @@
 		background-color: #1a1a1a;
 		
 		&__img{
-			width: 100px;
+			width: 100vw;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -34,14 +34,14 @@
 		&__button{
 			background-color: var(--hospital-green);
 			border-radius: 8px;
-    border: none;
-    color: var(--white);
-    width: 100%;
-    cursor: pointer;
-    font-size: var(--md);
-    font-weight: bold;
-    height: 50px;
-		text-decoration: none;
+			border: none;
+			color: var(--white);
+			width: 20%;
+			cursor: pointer;
+			font-size: var(--sm);
+			font-weight: bold;
+			height: 30px;
+			text-decoration: none;
 		}
 }
 @keyframes animates {
