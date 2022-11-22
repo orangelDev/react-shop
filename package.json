@@ -2,9 +2,12 @@
   "name": "react-shop",
   "version": "1.0.0",
   "description": "react-shop",
+  "homepage": "https://orangelDev.github.io/react-shop",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d dist",
     "start": "webpack serve --open",
     "build": "webpack --mode production"
   },
@@ -28,6 +31,7 @@
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "mini-css-extract-plugin": "^2.6.1",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
